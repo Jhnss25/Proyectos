@@ -1,0 +1,22 @@
+{
+  "name": "calculadora_de_propinas",
+  "version": "1.0.0",
+  "description": "Es una herramienta interactiva que te permite ingresar el monto total de una cuenta y calcular automáticamente el monto de la propina basado en diferentes porcentajes, brindándote el total a pagar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jhnss25/Proyectos.git#main"
+  },
+  "keywords": [
+    "calculadora de propinas"
+  ],
+  "author": "John Saavedra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jhnss25/Proyectos/issues"
+  },
+  "homepage": "https://github.com/Jhnss25/Proyectos/tree/main#readme"
+}
