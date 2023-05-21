@@ -49,3 +49,5 @@
 24. __**git tag [nombre]:**__ Crea una etiqueta en el commit actual. Las etiquetas son útiles para marcar versiones o hitos importantes en el historial del proyecto.
 
 25. __**git revert [commit]:**__ Crea un nuevo commit que revierte los cambios introducidos por el commit especificado.
+
+25. __**git rm --cached archivo:**__ Deja de rastrea un archivo especifico
