@@ -50,4 +50,6 @@
 
 25. __**git revert [commit]:**__ Crea un nuevo commit que revierte los cambios introducidos por el commit especificado.
 
-25. __**git rm --cached archivo:**__ Deja de rastrea un archivo especifico
+25. __**git rm --cached archivo:**__ Deja de rastrea un archivo especifico.
+
+26. __**git checkout -b <nombre_de_la_rama> :**__ Crea y cambia a una nueva rama.

@@ -10,7 +10,7 @@ const paths = {
     js: 'src/js/**/*.js'
 }
 
-// CSS
+// Compilar CSS
 function css() {
     return src(paths.src)
         .pipe(plumber({
@@ -24,7 +24,7 @@ function css() {
         .pipe(dest('build/css'));
 }
 
-// JavaScript
+// Compilar JavaScript
 function js() {
     return src(paths.js)
         .pipe(plumber({
