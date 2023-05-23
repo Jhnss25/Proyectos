@@ -48,8 +48,12 @@
 
 24. __**git tag [nombre]:**__ Crea una etiqueta en el commit actual. Las etiquetas son útiles para marcar versiones o hitos importantes en el historial del proyecto.
 
-25. __**git revert [commit]:**__ Crea un nuevo commit que revierte los cambios introducidos por el commit especificado.
+25. __**git restore [archivo]:**__ Descarta los cambios en el directorio de trabajo.
 
-25. __**git rm --cached archivo:**__ Deja de rastrea un archivo especifico.
+26. __**git restore --staged [archivo]:**__   se utiliza para eliminar los cambios que fueron agregados al área de preparación (staging area) para un archivo específico.
 
-26. __**git checkout -b <nombre_de_la_rama> :**__ Crea y cambia a una nueva rama.
+27. __**git revert [commit]:**__ Crea un nuevo commit que revierte los cambios introducidos por el commit especificado.
+
+28. __**git rm --cached archivo:**__ Deja de rastrea un archivo especifico.
+
+29. __**git checkout -b <nombre_de_la_rama> :**__ Crea y cambia a una nueva rama.
