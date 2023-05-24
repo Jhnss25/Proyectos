@@ -48,9 +48,9 @@
 
 24. __**git remote show [nombre_repositorio]:**__ Muestra información detallada sobre un repositorio remoto, como las ramas y las URL asociadas.
 
-25. __**git log --graph:**__ Muestra el historial de commits en forma de grafo, lo que te permite visualizar las ramas y las fusiones.
+25. __**git restore [archivo]:**__ Descarta los cambios en el directorio de trabajo.
 
-26. __**git tag [nombre]:**__ Crea una etiqueta en el commit actual. Las etiquetas son útiles para marcar versiones o hitos importantes en el historial del proyecto.
+26. __**git restore --staged [archivo]:**__   se utiliza para eliminar los cambios que fueron agregados al área de preparación (staging 
 
 27. __**git revert [commit]:**__ Crea un nuevo commit que revierte los cambios introducidos por el commit especificado.
 
@@ -69,3 +69,7 @@
 34. __**git tag [nombre_tag]:**__ un tag (etiqueta) es una referencia estática a un punto específico en la historia de un repositorio. Se utiliza para marcar versiones importantes o hitos en el proyecto. Los tags son útiles para identificar y acceder fácilmente a versiones específicas del código.
 
 34. __**git tag -a :**__ Si deseas crear un tag anotado que incluya un mensaje o una descripción, puedes agregar la opción -a y usar el siguiente comando: $ `git tag -a v0.1.0 -m "Lanzando la primera version (BETA) de la aplicación de cursos"`, También puedo enviar mi tag al servidor.
+
+35. __**git log --graph:**__ Muestra el historial de commits en forma de grafo, lo que te permite visualizar las ramas y las fusiones.
+
+36. __**git tag [nombre]:**__ Crea una etiqueta en el commit actual. Las etiquetas son útiles para marcar versiones o hitos importantes en el historial del proyecto.
