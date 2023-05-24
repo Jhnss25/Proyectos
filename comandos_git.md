@@ -38,16 +38,34 @@
 
 19. __**git stash:**__ Guarda temporalmente los cambios sin commit en una pila de cambios (stash). Es útil cuando necesitas cambiar de rama rápidamente sin realizar un commit.
 
-20. __**git stash apply:**__ Restaura el último stash guardado y aplica los cambios a tu rama actual.
+20. __**git stash apply [Nºstahs]:**__ Restaura el último stash guardado y aplica los cambios a tu rama actual.
 
-21. __**git cherry-pick [commit]:**__ Aplica los cambios de un commit específico en tu rama actual.
+21. __**git stash list:**__ se utiliza para mostrar la lista de "stashes" en un repositorio de Git.
 
-22. __**git remote show [nombre_repositorio]:**__ Muestra información detallada sobre un repositorio remoto, como las ramas y las URL asociadas.
+22. **git stash pop:** Agarra el ultimo stahs realizado, y lo coloca en nuestra carpeta y despues lo elimina del stage.
 
-23. __**git log --graph:**__ Muestra el historial de commits en forma de grafo, lo que te permite visualizar las ramas y las fusiones.
+23. __**git cherry-pick [commit]:**__ Aplica los cambios de un commit específico en tu rama actual.
 
-24. __**git tag [nombre]:**__ Crea una etiqueta en el commit actual. Las etiquetas son útiles para marcar versiones o hitos importantes en el historial del proyecto.
+24. __**git remote show [nombre_repositorio]:**__ Muestra información detallada sobre un repositorio remoto, como las ramas y las URL asociadas.
 
-25. __**git revert [commit]:**__ Crea un nuevo commit que revierte los cambios introducidos por el commit especificado.
+25. __**git log --graph:**__ Muestra el historial de commits en forma de grafo, lo que te permite visualizar las ramas y las fusiones.
 
-25. __**git rm --cached archivo:**__ Deja de rastrea un archivo especifico
+26. __**git tag [nombre]:**__ Crea una etiqueta en el commit actual. Las etiquetas son útiles para marcar versiones o hitos importantes en el historial del proyecto.
+
+27. __**git revert [commit]:**__ Crea un nuevo commit que revierte los cambios introducidos por el commit especificado.
+
+28. __**git rm --cached archivo:**__ Deja de rastrea un archivo especifico.
+
+29. __**git checkout -b <nombre_de_la_rama> :**__ Crea y cambia a una nueva rama.
+
+30. __**git log --oneline:**__ Muestra un registro conciso de los commits en tu repositorio de Git. Cada commit se presenta en una sola línea, lo que facilita la visualización rápida del historial de commits.
+
+31. __**git log -p:**__ Muestra un registro con todo los detalles de cambios realizado en el commit
+
+32. __**git log -n 2:**__ Muestra un registro con los detalles de los ultimos 2 cambios realizados en el commit.
+
+33. __**git diff [4afe032..9fdede7]:**__ Muestra la diferencia entre códigos de los commit, es importante poner los 2 puntos en medio.
+
+34. __**git tag [nombre_tag]:**__ un tag (etiqueta) es una referencia estática a un punto específico en la historia de un repositorio. Se utiliza para marcar versiones importantes o hitos en el proyecto. Los tags son útiles para identificar y acceder fácilmente a versiones específicas del código.
+
+34. __**git tag -a :**__ Si deseas crear un tag anotado que incluya un mensaje o una descripción, puedes agregar la opción -a y usar el siguiente comando: $ `git tag -a v0.1.0 -m "Lanzando la primera version (BETA) de la aplicación de cursos"`, También puedo enviar mi tag al servidor.
