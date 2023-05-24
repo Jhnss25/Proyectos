@@ -8,6 +8,49 @@
     <link rel="stylesheet" href="build/css/app.css">
 </head>
 <body>
-    
+    <main class="seccion-calculadora">
+        <h1 class="brillar">Calcular Propinas</h1>
+        
+        <form class="formulario">
+            <fieldset>
+                <div class="formulario-propina">
+                    <label for="ingresar-pago">Monto de la Cuenta</label>
+                    <input class="formulario-input" type="number" id="ingresar-pago">
+                </div>
+                <div class="formulario-propina">
+                    <label for="porcentaje-propina">Porcentaje de la Propina</label>
+                    <input class="formulario-input" type="text" id="porcentaje-propina">
+                </div>
+                <div class="formulario-propina">
+                    <label fot="personas">Cantidad de Personas</label>
+                    <input class="formulario-input" type="number" if="personas">
+                </div>
+            </fieldset>
+            
+            <div class="botones">
+                <input class='btn' type="submit" value="Calcular">
+                <input class='btn' type="reset" value="reset">
+            </div>
+        </form>
+            
+        <div class="div-pagar">
+            <div class="flex-pagar">
+                <p>Monto de la Propina</p>
+                <p>0</p>
+            </div>
+            <div class="flex-pagar">
+                <p>Total a Pagar:</p>
+                <p>0</p>
+            </div>
+            <div class="flex-pagar">
+                <p>Total a Pagar:</p>
+                <p>0</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>Todos los derechos reservados</p>
+    </footer>
 </body>
 </html>

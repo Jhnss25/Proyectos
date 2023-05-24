@@ -1,0 +1,51 @@
+// Calculadora
+
+@keyframes brillo {
+    0% {
+        color: gold; /* Color dorado */
+        text-shadow: 0 0 10px gold; /* Sombra dorada */
+    }
+    100% {
+        color: #000; /* Color dorado */
+        text-shadow: 0 0 10px #000; /* Sombra dorada */
+    }
+}
+
+.brillar {
+    animation: brillo 1s infinite; /* Duración de la animación y repetición infinita */
+}
+
+.seccion-calculadora {
+}
+
+.seccion-calculadora {
+    background-color: #a1a1a1;
+    max-width: 50rem;
+    margin: 0 auto;
+}
+
+.formulario-propina {
+
+}
+
+.formulario-propina label,
+.formulario-propina input {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 1rem 0;
+}
+.formulario-propina label {
+    color: #f1f1f1;
+}
+
+.flex-pagar {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #c1c1c1;
+}
+
+.btn {
+    padding: 1rem 2rem;
+    
+}

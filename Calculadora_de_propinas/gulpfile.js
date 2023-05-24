@@ -14,8 +14,8 @@ const paths = {
 function css() {
     return src(paths.src)
         .pipe(plumber({
-            error: function (error) {
-                console.log(error);
+            errorHandler: function (error) {
+                console.log('Error:', error.message);
                 this.emit('end');
             }
         }))
@@ -27,12 +27,6 @@ function css() {
 // Compilar JavaScript
 function js() {
     return src(paths.js)
-        .pipe(plumber({
-            error: function (error) {
-                console.log(error);
-                this.emit('end');
-            }
-        }))
         .pipe(dest('build/js'));
 }
 
