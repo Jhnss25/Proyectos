@@ -49,6 +49,10 @@
 .formulario-propina label {
     color: #f1f1f1;
 }
+.formulario-propina input {
+    border: none;
+    border-radius: 1rem;
+}
 
 .botones {
     display: flex;
@@ -65,11 +69,11 @@
     padding: 1rem 2rem;
     margin: .5rem auto;
     width: 95%;
+    cursor: pointer;
+    border: none;
+    border-radius: 1rem;
 }
 
-.div-pagar {
-
-}
 .grid-pagar {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
